@@ -147,3 +147,4 @@ if &term =~ "xterm"
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
 
+map! ;; <Esc> " map ;; to Esc
