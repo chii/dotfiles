@@ -32,6 +32,12 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " インデントの可視化
 NeoBundle 'Yggdroot/indentLine'
+" javascript syntax highlighting
+" NeoBundle 'pangloss/vim-javascript'
+" スニペット NeoSnippet
+" NeoBundle 'Shougo/neocomplcache'
+" NeoBundle 'Shougo/neosnippet'
+" NeoBundle 'Shougo/neosnippet-snippets'
 
 " ----------------------------------------------------------
 call neobundle#end()
