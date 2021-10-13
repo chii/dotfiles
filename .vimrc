@@ -38,6 +38,7 @@ NeoBundle 'Yggdroot/indentLine'
 " NeoBundle 'Shougo/neocomplcache'
 " NeoBundle 'Shougo/neosnippet'
 " NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'codota/tabnine-vim'
 
 " ----------------------------------------------------------
 call neobundle#end()
