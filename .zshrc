@@ -19,6 +19,8 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
 
+#asdf
+. $HOME/.asdf/asdf.sh
 
 
 
