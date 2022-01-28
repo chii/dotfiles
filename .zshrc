@@ -20,7 +20,7 @@ autoload -Uz _zinit
 ### End of Zinit's installer chunk
 
 #asdf
-#needs git clone first
+#needs git clone first (READ HERE:https://asdf-vm.com/guide/getting-started.html#_1-install-dependencies)
 #git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 #TODO: add if function of command
 . $HOME/.asdf/asdf.sh
