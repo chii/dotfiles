@@ -38,7 +38,13 @@ NeoBundle 'Yggdroot/indentLine'
 " NeoBundle 'Shougo/neocomplcache'
 " NeoBundle 'Shougo/neosnippet'
 " NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'codota/tabnine-vim'
+NeoBundle 'zxqfl/tabnine-vim'
+
+NeoBundle 'prettier/prettier'
+NeoBundle 'mxw/vim-jsx'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'sirver/ultisnips'
+NeoBundle 'w0rp/ale'
 
 " ----------------------------------------------------------
 call neobundle#end()
@@ -146,7 +152,7 @@ if &term =~ "xterm"
     let &t_EI .= "\e[?2004l"
     let &pastetoggle = "\e[201~"
 
-    function XTermPasteBegin(ret)
+    function! XTermPasteBegin(ret)
         set paste
         return a:ret
     endfunction
