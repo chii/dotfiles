@@ -5,5 +5,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## ## ## ## ## ## ## ## ##
 ## Flutter
+## Use homebrew to install Flutter at FIRST
+## Google 'homebrew flutter setup'
 ## ## ## ## ## ## ## ## ##
 export PATH="`pwd`/flutter/bin:$PATH"
