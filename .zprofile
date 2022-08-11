@@ -2,3 +2,8 @@ echo 'use python to open local web server for front end > python -m SimpleHTTPSe
 echo 'shift + command + > to show/hide hidden files'
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+## ## ## ## ## ## ## ## ##
+## Flutter
+## ## ## ## ## ## ## ## ##
+export PATH="`pwd`/flutter/bin:$PATH"
