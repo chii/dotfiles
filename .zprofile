@@ -9,3 +9,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Google 'homebrew flutter setup'
 ## ## ## ## ## ## ## ## ##
 export PATH="`pwd`/flutter/bin:$PATH"
+
+export ANDROID_NDK_HOME="/opt/homebrew/share/android-ndk"
